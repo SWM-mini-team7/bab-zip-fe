@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/party-page.css" />
+    <title>밥.zip</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img
+          src="../public/images/logo.png"
+          alt="로고"
+          onclick="location.href='party-list.html'"
+        />
+        <ul id="menu">
+          <li onclick="location.href='party-list.html'">밥약</li>
+          <li onclick="location.href='what-to-eat.html'">뭐먹지</li>
+          <li id="username">이정연 님</li>
+          <li id="logout" onclick="location.href='onboarding.html'">
+            <img src="../public/images/logout.png" alt="로그아웃" />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <div class="title">
+        <p><span id="state">모집중</span> 타이틀</p>
+      </div>
+      <div class="user">
+        <img src="../public/images/user.png" alt="사용자" />
+        <span>0/0명</span>
+        <div class="menu-name">
+          <img src="../public/images/fork.png" alt="메뉴" />
+          <span>메뉴이름</span>
+        </div>
+        <div calss="time">
+          <img src="../public/images/time.png" alt="시간" />
+          <span>00:00 PM</span>
+        </div>
+      </div>
+      <div class="text">
+        <p>&nbsp;</p>
+        <p>text...<br />test<br /><br /></p>
+      </div>
+
+      <div class="member">
+        <p>&nbsp;</p>
+        <span>참여중인 멤버</span> <span id="member-now">1</span>
+        <span id="member-total">/4</span>
+        <ui>
+          <li>
+            <img src="../public/images/rice 1.png" /> 이정연
+            <img src="../public/images/모임장.png" />
+          </li>
+        </ui>
+      </div>
+
+      <button type="submit" onclick="">참여하기</button>
+    </div>
+  </body>
+</html>
